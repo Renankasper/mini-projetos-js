@@ -33,6 +33,10 @@ body *{
     color: #77ffc0;
 }
 
+.image-login{
+    width: 35vw;
+}
+
 .right-login{
     width: 50vw;
     height: 100vh;
@@ -103,3 +107,27 @@ body *{
     cursor: pointer;
 }
 
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+    .left-login > h1{
+        display: none;
+    }
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+    .image-login{
+        width: 50vw;
+    }
+    .card-login{
+        width: 90%;
+    }
+}
