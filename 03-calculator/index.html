@@ -5,81 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Calculator</title>
 </head>
 <body>
-    <div class="wrapper">
-        <section class="screen">
-            0
-        </section>
-        <section class="calc-buttons">
-            <div class="calc-button-row">
-                <button class="calc-button double">
-                    C
-                </button>
-                <button class="calc-button">
-                    &llarr;
-                </button>
-                <button class="calc-button">
-                    &divide;
-                </button>
-            </div>
-            <div class="calc-button-row">
-                <button class="calc-button">
-                    7
-                </button>
-                <button class="calc-button">
-                    8
-                </button>
-                <button class="calc-button">
-                    9
-                </button>
-                <button class="calc-button">
-                    &times;
-                </button>
-                <div class="calc-button-row">
-                    <button class="calc-button">
-                        4
-                    </button>
-                    <button class="calc-button">
-                        5
-                    </button>
-                    <button class="calc-button">
-                        6
-                    </button>
-                    <button class="calc-button">
-                        &minus;
-                    </button>
-                </div>
-                <div class="calc-button-row">
-                    <button class="calc-button">
-                        1
-                    </button>
-                    <button class="calc-button">
-                        2
-                    </button>
-                    <button class="calc-button">
-                        3
-                    </button>
-                    <button class="calc-button">
-                        &plus;
-                    </button>
-                </div>
-                <div class="calc-button-row">
-                    <button class="calc-button triple">
-                        0
-                    </button>
-                    <button class="calc-button">
-                        &equals;
-                    </button>
-                </div>
-            </div>
-        </section>
+    <div class="container">
+        <div class="result">0</div>
+        <div class="grid">
+            <button id="btn" class="circle circle-gray">AC</button>
+            <button id="btn" class="circle circle-gray">+/-</button>
+            <button id="btn" class="circle circle-gray">%</button>
+            <button id="btn" class="circle circle-orange">&div;</button>
+            <button id="btn" class="circle">7</button>
+            <button id="btn" class="circle">8</button>
+            <button id="btn" class="circle">9</button>
+            <button id="btn" class="circle circle-orange">x</button>
+            <button id="btn" class="circle">4</button>
+            <button id="btn" class="circle">5</button>
+            <button id="btn" class="circle">6</button>
+            <button id="btn" class="circle circle-orange">-</button>
+            <button id="btn" class="circle">1</button>
+            <button id="btn" class="circle">2</button>
+            <button id="btn" class="circle">3</button>
+            <button id="btn" class="circle circle-orange">+</button>
+            <button id="btn" class="circle-wide">0</button>
+            <button id="btn" class="circle">.</button>
+            <button id="btn" class="circle circle-orange">&equals;</button>
+        </div>
     </div>
-
-
-    <script src="script.js"></script>
 </body>
 </html>
