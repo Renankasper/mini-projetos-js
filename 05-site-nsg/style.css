@@ -1,0 +1,98 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Limite de largura */
+}
+
+.image {
+    cursor: pointer;
+    width: 200px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 7px;
+}
+
+nav ul li a {
+    color: #131E3D;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 10px;
+    font-size: 1em; /* Tamanho normal do link */
+}
+
+nav ul li a:hover {
+    background-color: #131e3d36; /* Cor de fundo ao passar o mouse */
+    color: #fff; /* Cor de texto ao passar o mouse */
+}
+
+/* Estilos para esconder checkbox */
+.not-visible {
+    display: none;
+}
+
+input[type="checkbox"].close-menu {
+    display: none;
+}
+
+/* Hero Image */
+.hero-image {
+    background-image: url('src/img/image-maria.png');
+    background-position: center; /* Centraliza a imagem */
+    height: 100vh; /* Ocupa 100% da altura da viewport */
+    background-repeat: no-repeat;
+    background-size: cover; /* Cobre todo o container */
+    position: relative; /* Posiciona de forma relativa */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Hero Text */
+.hero-text {
+    color: #fff; /* Texto branco */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 35px;
+}
+
+.hero-text h1 {
+    font-size: 3em; /* Tamanho grande do título */
+}
+
+.hero-text p {
+    font-size: 1.5em; /* Tamanho menor do parágrafo */
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paróquia Nossa Senhora das Graças</title>
+    <link rel="shortcut icon" href="src/img/favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <label class="not-visible" for="close-menu">Menu</label>
+    <input class="close-menu" type="checkbox" id="close-menu" role="button" aria-label="close-menu">
+
+    <header class="menu">
+        <div class="menu-container">
+            <img class="image" onclick="document.getElementById('close-menu').checked = false;" src="src/img/logo.png" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="#inicio" onclick="document.getElementById('close-menu').checked = false;">INÍCIO</a></li>
+                    <li><a href="#eventos" onclick="document.getElementById('close-menu').checked = false;">EVENTOS</a></li>
+                    <li><a href="#paroquia" onclick="document.getElementById('close-menu').checked = false;">PARÓQUIA</a></li>
+                    <li><a href="#pastoral" onclick="document.getElementById('close-menu').checked = false;">PASTORAL</a></li>
+                    <li><a href="#contato" onclick="document.getElementById('close-menu').checked = false;">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Bem-Vindo (a) à nossa Paróquia</h1>
+            <p>“Ó Maria concebida sem pecado, rogai por nós, que recorremos a Vós!”</p>
+        </div>
+    </div>
+</body>
+
+</html>
